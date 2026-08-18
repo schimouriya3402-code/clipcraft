@@ -13,6 +13,7 @@ private:
 public:
     Project(std::string name);
     ~Project();
+        Timeline* getTimeline() const;
 
     void save(std::string filename) const;
     void load(std::string filename);

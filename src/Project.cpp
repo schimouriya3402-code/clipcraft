@@ -12,6 +12,9 @@ Project::Project(std::string name) : name(name) {
 Project::~Project() {
     delete timeline;
 }
+Timeline* Project::getTimeline() const {
+    return timeline;
+}
 
 void Project::save(std::string filename) const {
     std::ofstream file(filename);
