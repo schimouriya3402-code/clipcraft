@@ -1,0 +1,3 @@
+Project: My First Project
+Total Duration: 43
+Total Render Cost: 44.5
